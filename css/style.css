@@ -1,0 +1,48 @@
+* {
+  font-family: 'NotoSerif-Regular' !important;
+  src: url('/font/NotoSerif-Regular.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #sliderPocetna .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 900px;
+  }
+
+  /* NAVBAR */
+
+.nav-item{
+    font-size: medium;
+    margin-right: 40px;
+    
+}
+
+
+
+.navbar-brand > h4{
+  font-family: 'Lobster', cursive !important;
+}
+
+  /* ***** */
+
+  /* SLIDER */
+  .slider-text {
+    display: table-cell;
+    width: 1000px !important;
+    height: 100vh;
+    vertical-align: middle;
+  }
+  
+  .slider-text > h5{
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  .slider-text > p{
+    font-size: larger;
+  }
