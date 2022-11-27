@@ -1,6 +1,7 @@
 * {
-  font-family: 'NotoSerif-Regular' !important;
-  src: url('/font/NotoSerif-Regular.ttf');
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  
 }
 
 html {
@@ -22,27 +23,41 @@ html {
     
 }
 
-
-
-.navbar-brand > h4{
-  font-family: 'Lobster', cursive !important;
-}
-
   /* ***** */
 
   /* SLIDER */
-  .slider-text {
-    display: table-cell;
-    width: 1000px !important;
-    height: 100vh;
-    vertical-align: middle;
+  .carousel-caption{
+    height: 70%;
   }
-  
-  .slider-text > h5{
-    font-size: 40px;
+
+  @media (min-width: 576px) {
+    .carousel-caption{
+      height: 60% !important;
+      
+    }
+  }
+
+  .slider-text, .btn{
+    text-shadow: 2px 2px 5px darkkhaki !important;
+    color: rgb(224, 223, 223);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+  }
+  .slider-text > h1{
     text-transform: uppercase;
   }
 
   .slider-text > p{
     font-size: larger;
   }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
