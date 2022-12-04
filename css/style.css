@@ -1,3 +1,8 @@
+:root {
+  --primary-color: darkgoldenrod;
+  --secondary-color: rgb(255, 255, 255);
+}
+
 * {
   font-family: 'Ubuntu', sans-serif;
   /* font-family: 'Work Sans', sans-serif; */
@@ -6,9 +11,13 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-  #sliderPocetna .carousel-item img {  
+a{
+  color: var(--primary-color);
+}
+
+#sliderPocetna .carousel-item img {  
     object-fit: cover;
     object-position: center;
     overflow: hidden;
@@ -20,7 +29,6 @@ html {
 .nav-item{
     font-size: medium;
     margin-right: 40px;
-    
 }
 
   /* ***** */
@@ -33,13 +41,11 @@ html {
   @media (min-width: 576px) {
     .carousel-caption{
       height: 60% !important;
-      
     }
   }
 
   .slider-text, .btn{
-    text-shadow: 2px 2px 5px darkkhaki !important;
-    color: rgb(224, 223, 223);
+    text-shadow: 2px 2px 10px rgb(227, 222, 143) !important;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -60,4 +66,9 @@ html {
     100% {
         opacity: 1;
      }
+}
+
+/* KARTICE */
+.sadrzajKartice{
+  border-color: var(--primary-color) !important;
 }
