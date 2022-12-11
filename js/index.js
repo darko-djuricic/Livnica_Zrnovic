@@ -1,4 +1,4 @@
-setTimeout(showToast, 3000)
+setTimeout(showToast, 6000)
 
 function showToast(){
     const toastLiveExample = document.getElementById('liveToast')

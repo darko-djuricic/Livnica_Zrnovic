@@ -13,43 +13,42 @@ html {
     scroll-behavior: smooth;
 }
 
-a{
+a, .btn-light{
   color: var(--primary-color);
 }
-
-#sliderPocetna .carousel-item img {  
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-    height: 900px;
-  }
 
   /* NAVBAR */
 
 .nav-item{
     font-size: medium;
     margin-right: 40px;
+    font-weight: bold;
+    
 }
 
   /* ***** */
 
   /* SLIDER */
-  .carousel-caption{
-    height: 70%;
+
+  #sliderPocetna .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 900px;
   }
 
-  @media (min-width: 576px) {
-    .carousel-caption{
-      height: 60% !important;
-    }
+  .carousel-item{
+    height: 90vh !important;
+    position: relative;
   }
-
-  .slider-text, .btn{
+  .slider-text{
     text-shadow: 2px 2px 10px rgb(227, 222, 143) !important;
     animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .slider-text > h1{
     text-transform: uppercase;
