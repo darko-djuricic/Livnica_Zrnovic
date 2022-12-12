@@ -13,7 +13,7 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Custom css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&display=swap" rel="stylesheet">
     <!-- Title -->
     <title>Livnica Zrnović</title>
@@ -24,7 +24,7 @@
         <div class="container-fluid">
           <!-- <a class="navbar-brand ps-3" href="#"><h4>Livnica Zrnović</h4></a> -->
           <a class="navbar-brand ps-3" href="index.html">
-            <img src="img/logo.png" alt="Logo livnice Zrnovic" width="80">
+            <img src="../img/logo.png" alt="Logo livnice Zrnovic" width="80">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
                     <a class="nav-link" href="#">REFERENCE</a>
                 </li>
             </ul>
-          </div>
+          </div> 
         </div>
     </nav>
     <!-- SLIDER -->
@@ -65,9 +65,9 @@
         </div>
         <div id="sliderSadrzaj" class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/pocetna/polelej_crkva_cara_konstantina.JPG" class="d-block w-100 opacity-75" alt="...">
+            <img src="../img/pocetna/polelej_crkva_cara_konstantina.JPG" class="d-block w-100 opacity-75" alt="...">
             <div class="carousel-caption h-100 d-block">
-              <div class="slider-text">
+              <div class="slider-text w-100">
                 <h1 class="display-4">Dobrodošli na sajt Livnice Zrnović</h1>
                 <p>Assumenda error perferendis quae, ullam similique laudantium non blanditiis est</p>
                 <button class="btn btn-lg btn-light">Crkveni program</button>
@@ -105,14 +105,14 @@
     <!-- CARDS -->
     <div class="container mt-5 mb-5">
       <div class="text-center mb-5">
-        <span class="text-center mb-5 text-secondary h3">DELATNOSTI</span>
+        <span class="text-center mb-5 text-secondary h4 fw-bold">DELATNOSTI</span>
       </div>
-      <div id="kartice" class="row">
-        <div id="crkveniProgram" class="col-sm-6 col-lg-4">
+      <div id="kartice" class="row justify-content-between">
+        <div id="crkveniProgram" class="col-md-6 col-lg-4">
             <div class="col-12 pb-2 ps-2">
               <div class="text-light rounded border border-dark border-2" style="width: 25px; height: 25px;"></div>
             </div>
-            <div class="sadrzajKartice col-8 border-start border-3 ps-2">
+            <div class="sadrzajKartice col-8 col-md-10 border-start border-3 ps-2">
               <h5 class="fw-bold">CRKVENI PROGRAM</h5>
               <p>izrada horosa, polieleja i ostale crkvene rasvete</p>
             </div>
@@ -120,11 +120,11 @@
               <a href="#" class="text-decoration-none">(više)</a>
             </div>
         </div>
-        <div id="kamenorezackiProgram" class="col-sm-6 col-lg-4">
+        <div id="kamenorezackiProgram" class="col-md-6 col-lg-4">
           <div class="col-12 pb-2 ps-2">
             <div class="text-light rounded border border-dark border-2" style="width: 25px; height: 25px;"></div>
           </div>
-          <div class="sadrzajKartice col-8 border-start border-3 ps-2">
+          <div class="sadrzajKartice col-8 col-md-10 border-start border-3 ps-2">
             <h5 class="fw-bold">KAMENOREZAČKI PROGRAM</h5>
             <p>izrada slova, ramova, ruža i ostalo</p>
           </div>
@@ -132,11 +132,11 @@
             <a href="#" class="text-decoration-none">(više)</a>
           </div>
         </div>
-        <div id="limenaSlovaGrboviPloce" class="col-sm-6 col-lg-4">
+        <div id="limenaSlovaGrboviPloce" class="col-md-6 col-lg-4">
           <div class="col-12 pb-2 ps-2">
             <div class="text-light rounded border border-dark border-2" style="width: 25px; height: 25px;"></div>
           </div>
-          <div class="sadrzajKartice col-8 border-start border-3 ps-2">
+          <div class="sadrzajKartice col-8 col-md-10 border-start border-3 ps-2">
             <h5 class="fw-bold">LIVENA SLOVA, GRBOVI I PLOČE</h5>
             <p>livenje ploča i natpisa za firme i institucije ili ugostiteljske objekte</p>
           </div>
@@ -144,11 +144,11 @@
             <a href="#" class="text-decoration-none">(više)</a>
           </div>
         </div>
-        <div id="okoviYaStilskiNamestaj" class="col-sm-6 col-lg-4">
+        <div id="okoviZaStilskiNamestaj" class="col-md-6 col-lg-4">
           <div class="col-12 pb-2 ps-2">
             <div class="text-light rounded border border-dark border-2" style="width: 25px; height: 25px;"></div>
           </div>
-          <div class="sadrzajKartice col-8 border-start border-3 ps-2">
+          <div class="sadrzajKartice col-8 col-md-10 border-start border-3 ps-2">
             <h5 class="fw-bold">OKOVI ZA STILSKI NAMEŠTAJ</h5>
             <p>izrada okova po našim modelima ili vašim uzorcima</p>
           </div>
@@ -156,11 +156,11 @@
             <a href="#" class="text-decoration-none">(više)</a>
           </div>
         </div>
-        <div id="saradnjaSaVajarima" class="col-sm-6 col-lg-4">
+        <div id="saradnjaSaVajarima" class="col-md-6 col-lg-4">
           <div class="col-12 pb-2 ps-2">
             <div class="text-light rounded border border-dark border-2" style="width: 25px; height: 25px;"></div>
           </div>
-          <div class="sadrzajKartice col-8 border-start border-3 ps-2">
+          <div class="sadrzajKartice col-8 col-md-10 border-start border-3 ps-2">
             <h5 class="fw-bold">SARADNJA SA VAJARIMA</h5>
             <p>izrada skulptura od bronze, mesinga i aluminijuma</p>
           </div>
@@ -168,11 +168,11 @@
             <a href="#" class="text-decoration-none">(više)</a>
           </div>
         </div>
-        <div id="ostaliProgami" class="col-sm-6 col-lg-4">
+        <div id="ostaliProgami" class="col-md-6 col-lg-4">
           <div class="col-12 pb-2 ps-2">
             <div class="text-light rounded border border-dark border-2" style="width: 25px; height: 25px;"></div>
           </div>
-          <div class="sadrzajKartice col-8 border-start border-3 ps-2">
+          <div class="sadrzajKartice col-8 col-md-10 border-start border-3 ps-2">
             <h5 class="fw-bold">OSTALI PROGRAMI</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           </div>
